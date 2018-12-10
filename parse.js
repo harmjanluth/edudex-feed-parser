@@ -38,7 +38,7 @@ xml.on('endElement: program', function(program) {
 
 
 
-  console.log(intervention);
+  console.log(JSON.stringify(intervention));
   
   // Uncomment this!
   xml.pause();
